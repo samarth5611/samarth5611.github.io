@@ -28,6 +28,10 @@ html {
         font-size: medium;
 }
 
+.color-link {
+        color: #0012b3;
+}
+
 .competitive_programming_bullet_points {
         font-size: large;
         font-weight: 400;
@@ -54,11 +58,12 @@ h3.competitive_programming {
 }
 
 .quote {
-        font-size: 300%;
+        color: #596e79;
+        font-size: 200%;
         line-height: 1.2;
         font-family: 'Playfair Display', serif;
         text-align: center;
-        margin-top: 5%;
+        margin-top: 0;
         margin-bottom: 5%;
         margin-right: 1%;
         margin-left: 1%;
@@ -5815,14 +5820,10 @@ body.minimal {
         color: #fff
 }
 
-.section-container-spacer {
-        margin-bottom: 30px
-}
+.section-container-spacer {}
 
 @media (min-width:1200px) {
-        .section-container-spacer {
-                margin-bottom: 40px
-        }
+        .section-container-spacer {}
 }
 
 .section-container {
