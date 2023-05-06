@@ -1010,6 +1010,13 @@ pre code {
         overflow-y: scroll
 }
 
+.container-project {
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0px;
+        padding-right: 0px
+}
+
 .container {
         margin-right: auto;
         margin-left: auto;
@@ -5820,7 +5827,26 @@ body.minimal {
         color: #fff
 }
 
-.section-container-spacer {}
+.color-links-project {
+        font-size: small;
+        color: #696969
+}
+
+.color-links-project:hover {
+        color: #000d80;
+}
+
+
+
+.project-content {
+        font-size: larger;
+        font-weight: 400;
+}
+
+.section-container-spacer {
+        margin-left: 200px;
+        margin-right: 200px;
+}
 
 @media (min-width:1200px) {
         .section-container-spacer {}
